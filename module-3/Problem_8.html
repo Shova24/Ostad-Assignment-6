@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problem 8</title>
+</head>
+<body>
+    <h3>#Problem-7</h3>
+    <p id="lorem">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nulla, quisquam libero quos ex, harum necessitatibus ducimus natus maxime nesciunt provident, earum odit totam? Rerum possimus dicta laborum odio vel?
+    </p>
+    <button onclick={changeContent()}>Change</button>
+
+    <script>
+        const changeContent = () =>{
+            const element = document.getElementById("lorem");
+            element.innerHTML = "Button Clicked!"
+        }
+    </script>
+</body>
+</html>

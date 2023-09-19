@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 7</title>
+</head>
+<body>
+    <h3>#Problem-7</h3>
+
+    <img id="image" src="sample-1.png" alt="sample-1">
+    <script>
+        document.addEventListener("click", (e)=>{
+            alert(`Coordinates are ${e.clientX} and ${e.clientY}`)
+            console.log(e.clientX, e.clientY);
+        })
+
+        document.addEventListener("keydown", (e)=>{
+            alert(`Keycode pressed  - ${e.keyCode}`)
+        });
+
+        const image = document.getElementById('image')
+        image.addEventListener("mouseover", () =>{
+            image.src = "sample-2.jpg"
+        })
+    </script>
+</body>
+</html>

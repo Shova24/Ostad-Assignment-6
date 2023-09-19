@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem 14</title>
+  </head>
+  <body>
+    <button onclick="{call()}">call</button>
+
+    <script>
+      const call = async () => {
+        const url = "https://api.publicapis.org/entries";
+        // const url = "https://api.example.com/data";
+        const res = await fetch(url);
+        const data = await res.json();
+        console.log(data);
+      };
+    </script>
+  </body>
+</html>

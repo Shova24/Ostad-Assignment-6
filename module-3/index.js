@@ -71,3 +71,6 @@ const geolocation = () => {
     ).innerHTML = `Latitude: ${lat} & Longitude: ${long}`;
   });
 };
+
+//Problem - 7
+const commonEvents = () => {};

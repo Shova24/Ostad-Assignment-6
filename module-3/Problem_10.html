@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="{changeCSS()}">click</button>
+    <p id="pera">Problem 10</p>
+
+    <script>
+      const changeCSS = () => {
+        const element = document.getElementById("pera");
+        element.classList.add("highlight");
+      };
+    </script>
+  </body>
+</html>
