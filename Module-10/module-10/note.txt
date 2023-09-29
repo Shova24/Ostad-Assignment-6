@@ -1,0 +1,3 @@
+It's a starting project in nextJs.
+
+- created layouts for each grouped folder.
